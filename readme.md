@@ -12,5 +12,5 @@ Then, i can search for the raspberry from my laptop:
     Got response from 192.168.2.30: Hello, i am stan
     $
     
-### Why aren't you using <some other technology>?
+### Why aren't you using ... ?
 Because i couldn't find a simple solution for this problem within 30 minutes, and i love programming sockets!
