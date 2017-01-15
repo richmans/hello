@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import socket
 myHostname = socket.gethostname()
 UDP_IP = "0.0.0.0"
