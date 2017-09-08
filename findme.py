@@ -9,6 +9,6 @@ sock.bind((UDP_IP, UDP_PORT))
 
 while True:
   data, addr = sock.recvfrom(1024)
-  if data == "Hello?":
+  if data == b"Hello?":
     print("Got someone searching")
-    sock.sendto("Hello, i am " + myHostname, addr)
+    sock.sendto(("Hello, i am " + myHostname).encode(), addr)
